@@ -1,0 +1,66 @@
+=== Corrected Cases ===
+
+Example 1:
+Premise: A woman within an orchestra is playing a violin.
+Hypothesis: A woman is playing the violin.
+True label: 0
+Base prediction: 1
+Fine-tuned prediction: 0
+
+Example 5:
+Premise: many children play in the water.
+Hypothesis: The children are playing mini golf.
+True label: 2
+Base prediction: 1
+Fine-tuned prediction: 2
+
+Example 7:
+Premise: A female softball player wearing blue and red crouches in the infield, waiting for the next play.
+Hypothesis: the player is flying planes
+True label: 2
+Base prediction: 1
+Fine-tuned prediction: 2
+
+Example 8:
+Premise: Workers standing on a lift.
+Hypothesis: Workers stand on a lift
+True label: 0
+Base prediction: 1
+Fine-tuned prediction: 0
+
+Example 9:
+Premise: Two men in neon yellow shirts busily sawing a log in half.
+Hypothesis: Two men are cutting wood to build a table.
+True label: 1
+Base prediction: 2
+Fine-tuned prediction: 1
+
+=== Still Wrong Cases ===
+
+Example 4:
+Premise: a woman in a black shirt looking at a bicycle.
+Hypothesis: A woman dressed in black shops for a bicycle.
+True label: 1
+Base prediction: 2
+Fine-tuned prediction: 0
+
+Example 10:
+Premise: A Skier ski-jumping while two other skiers watch his act.
+Hypothesis: A skier preparing a trick
+True label: 0
+Base prediction: 1
+Fine-tuned prediction: 2
+
+Example 11:
+Premise: Children bathe in water from large drums.
+Hypothesis: The kids are wet.
+True label: 0
+Base prediction: 1
+Fine-tuned prediction: 1
+
+Example 87:
+Premise: Overly dramatic couple pose for a picture where an "angry "man "chokes" a woman who sticks out her tongue.
+Hypothesis: A man chokes a woman
+True label: 0
+Base prediction: 1
+Fine-tuned prediction: 1

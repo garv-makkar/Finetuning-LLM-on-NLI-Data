@@ -1,0 +1,43 @@
+Starting script execution...
+Output directory: /content/drive/My Drive/Sem 7/LLM/Assignment 3/A3_Outputs
+Loading datasets...
+
+Evaluating base model...
+Base model size: 10119.49 MB
+Base model total parameters: 2,648,568,320
+
+Initializing QLoRA model...
+Total parameters: 1,398,149,120
+Trainable parameters: 7,872,000
+Percentage of parameters fine-tuned: 0.56%
+
+Tokenizing datasets...
+
+Starting training...
+
+=== Model Size Analysis ===
+Base model size: 10119.49 MB
+QLoRA model size: 1741.52 MB
+Size reduction: 82.79%
+
+=== Hardware Resource Usage ===
+Training time: 601.44 seconds
+Peak GPU memory usage: 12.32 GB
+Final GPU memory usage: 12.50 GB
+CPU utilization: 35.4% → 65.7%
+RAM usage: 4.27 GB → 4.35 GB
+
+Saving final model...
+
+Evaluating fine-tuned model...
+
+=== Results Summary ===
+Base model accuracy: 0.3800
+Fine-tuned model accuracy: 0.8200
+Training time: 601.44 seconds
+Peak GPU memory usage: 12.32 GB
+
+Number of cases corrected by fine-tuning: 58
+Number of cases still wrong after fine-tuning: 4
+
+All outputs have been saved to: /content/drive/My Drive/Sem 7/LLM/Assignment 3/A3_Outputs
